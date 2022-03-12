@@ -49,17 +49,8 @@ void dbg_out(Head H, Tail... args) {cout << H << " "; dbg_out(args...);}
 
 void solve()
 {
-    string s;
-    cin >> s;
-    string s2;
-    cin >> s2;
 
-    if (s > s2)
-    {
-        cout << "YE";
-    } else {
-        cout << "MO";
-    }
+
 
 
 
@@ -99,22 +90,22 @@ void solve()
 
 void file_io_with_fast_io()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
+  ios_base::sync_with_stdio(false);
+  cin.tie(0);
+  cout.tie(0);
 }
 
 signed main()
 {
-    file_io_with_fast_io();
+  file_io_with_fast_io();
 
-    int t = 1;
-    cin >> t;
+  int t = 1;
+  cin >> t;
 
-    while (t--)
-    {
-        solve();
-    }
+  while (t--)
+  {
+    solve();
+  }
 
-    return 0;
+  return 0;
 }
